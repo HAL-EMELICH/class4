@@ -29,6 +29,8 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
+  database: class4_7jv3
+  username: class4_7jv3_user
  cache:
   <<: *primary_production
  queue:
